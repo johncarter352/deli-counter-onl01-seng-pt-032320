@@ -10,3 +10,6 @@ def line(array)
     puts line_wait
   end
 end
+
+def take_a_number(array)
+  
