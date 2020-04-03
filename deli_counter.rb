@@ -12,5 +12,4 @@ def line(array)
 end
 
 def take_a_number(deli, array)
-  
-  
+  deli = []
