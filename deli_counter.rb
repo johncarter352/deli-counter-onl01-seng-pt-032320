@@ -1,9 +1,12 @@
 # Write your code here.
 def line(array)
-  katz_deli = []
-  if array == 0 
-  puts "The line is currently empty."
+  if array.empty
+    puts "The line is currently empty."
   else
-   puts "The line is currently #{katz_deli.length}.}"
+    line_wait = "The line is currently"
+    deli.each.with_index(1) do |person, i|
+      line_wait << " #{i}. #{person}"
+    end
+    line_wait
   end
 end
