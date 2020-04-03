@@ -13,3 +13,5 @@ end
 
 def take_a_number(deli, array)
   deli = []
+  deli << name 
+  
