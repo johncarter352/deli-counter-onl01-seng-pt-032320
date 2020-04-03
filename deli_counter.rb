@@ -12,8 +12,8 @@ def line(array)
 end
 
 def take_a_number(deli, array)
-  deli << name 
-  puts "Welcome, #{name}. You are number #{deli.length} in line."
+  deli << array 
+  puts "Welcome, #{array}. You are number #{deli.length} in line."
 end
 
 def now_serving(array)
