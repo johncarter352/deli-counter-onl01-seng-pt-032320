@@ -14,4 +14,6 @@ end
 def take_a_number(deli, array)
   deli = []
   deli << name 
-  
+  puts "Welcome, #{name}. You are number #{deli.length} in line."
+end
+
