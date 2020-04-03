@@ -1,6 +1,6 @@
 # Write your code here.
 def line(array)
-  if array.empty
+  if array.empty?
     puts "The line is currently empty."
   else
     line_wait = "The line is currently"
