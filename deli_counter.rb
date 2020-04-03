@@ -7,6 +7,6 @@ def line(array)
     array.each.with_index(1) do |person, i|
       line_wait << " #{i}. #{person}"
     end
-    line_wait
+    puts line_wait
   end
 end
